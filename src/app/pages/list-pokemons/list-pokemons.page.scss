@@ -4,3 +4,13 @@
   width: auto;
   margin: 8px auto;
 }
+
+ion-segment-button {
+  min-width: 92px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px 20px;
+  color: var(--ion-color-medium);
+}

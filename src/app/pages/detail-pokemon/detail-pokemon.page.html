@@ -1,6 +1,15 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>Detalle del Pokémon</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="toggleFavorito()">
+        <ion-icon
+          slot="icon-only"
+          [name]="esFavorito ? 'heart' : 'heart-outline'"
+          [color]="esFavorito ? 'danger' : 'medium'">
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
